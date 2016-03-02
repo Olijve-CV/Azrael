@@ -1,0 +1,19 @@
+#ifndef COMM_H
+#define COMM_H
+
+//包头和包尾
+#define PACKET_SIGN 0xAD
+#define PACKET_HEAD PACKET_SIGN + 1
+#define PACKET_END PACKET_SIGN + 1
+
+
+#define PT_RPC_BASE	100
+#define PT_RPC_STATIC 0xf0000000
+#define PT_RPC_SWITCH 0x08000000
+
+#define MAXPACKETLEN 65535
+#define MAXBUFERLEN	655350
+
+
+#endif //!COMM_H
+

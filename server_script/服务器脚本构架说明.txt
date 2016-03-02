@@ -1,0 +1,18 @@
+config:各个服务器配置文件
+	game	--主游戏服
+	db		--数据库服务器
+	router	--router服
+	login	--登录服
+	common	--公共服
+
+
+script：逻辑lua脚本目录
+	Data：产品数据
+	util：各个服共用的lua工具库
+	game	--主游戏服逻辑
+	db		--数据库服逻辑
+	login	--登录服逻辑
+	common	--公共服逻辑
+
+
+
